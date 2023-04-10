@@ -1,0 +1,203 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo img {
+    width: 20%;
+    height: auto;
+    margin-right: 10px;
+}
+
+.nav-logo h1 {
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px;
+}
+
+.main-block {
+    width: 30%;
+}
+
+.main-block h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.main-block p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.services-block {
+    flex-basis: 45%;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.service img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.service h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.service p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.services-block:last-child {
+    text-align: center;
+}
+
+.services-block:last-child img {
+    width: 100%;
+    height: auto;
+}
+
+.service img {
+    max-width: 20%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.doctors-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.doctor-card {
+    width: 48%;
+    margin-bottom: 2rem;
+}
+
+.doctor-card img {
+    width: 30%;
+}
+
+.doctor-info {
+    padding: 1rem;
+}
+
+.doctor-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.doctor-info p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.doctor-info ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.doctor-info li {
+    margin-bottom: 0.5rem;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+.address-section {
+    padding: 50px 0;
+}
+
+.address-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.address-text {
+    flex: 1 1 50%;
+    text-align: center;
+}
+
+.map-image {
+    flex: 1 1 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map-image img {
+    max-width: 100%;
+    height: auto;
+}
