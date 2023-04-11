@@ -47,9 +47,7 @@
         <div class="address-text">
           <h2>Email:</h2>
           <p>info@hospital.com</p>
-          <button id="myBtn">Открыть окно</button>
-          <!-- <button onclick="openFeedBackForm()">Написать нам</button> -->
-
+          <button id="myBtn">Написать сообщение</button>
         </div>
       </div>
     </section>
@@ -82,13 +80,13 @@
       <input type="email" id="email" name="email"><br>
       <label for="message">Сообщение:</label><br>
       <textarea id="message" name="message"></textarea><br>
-      <button type="submit">Отправить</button>
+      <button type="submit" id="submit-btn">Отправить</button>
     </form>
   </div>
 </div>
 <!--Подключаем скрипт здесь. Иначе не увидит элементы модального окна-->
 <script src="./js/feedback.js"></script>
-
+<script src="./js/post.js"></script>
 </body>
 
 </html>
